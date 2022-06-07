@@ -1,0 +1,15 @@
+@import './variable.scss';
+@import './buttons.scss';
+.benefits {
+    .benefits-title {
+        h5 {
+            font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $createxTitle;
+        }
+    }
+}

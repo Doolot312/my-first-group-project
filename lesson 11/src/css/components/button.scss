@@ -1,0 +1,26 @@
+@import '../variable.scss';
+@import '../components/media/media.scss';
+.btn {
+	padding: 1.25rem 2.5rem;
+	border-radius: 4px;
+	background: $btn;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+	color: $textColor;
+    @media (max-width: $xxl) {
+        padding: 8px 5px;
+        font-size: 16px;
+    }
+    @media (maxx-width: $xl) {
+        padding: 8px 5px;
+        font-size: 16px;
+    }
+    @media (maxx-width: $lg) {
+        padding: 8px 5px;
+        font-size: 16px;
+    }
+    @media (maxx-width: $md) {
+        padding: 8px 5px;
+        font-size: 16px;
+    }
+}
