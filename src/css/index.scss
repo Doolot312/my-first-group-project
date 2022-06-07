@@ -1,0 +1,15 @@
+@import "./normalize/normalize.scss";
+@import "./button.css";
+@import './components/proFC.scss';
+
+.bg {
+  background: $mainBg;
+  padding-bottom: 5rem;
+}
+@import "./components/header.scss";
+// CreateX
+@import "./components/CreateX.scss";
+
+// courses
+@import "./components/courses.scss";
+@import './components/benefits.scss'
